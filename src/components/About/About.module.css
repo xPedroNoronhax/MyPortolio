@@ -1,0 +1,119 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap; /* Adicionado para ajudar na responsividade */
+}
+
+.aboutImg {
+  width: 25%;
+  margin-right: 10px;
+}
+
+.aboutItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 25px;
+  flex: 1; /* Para ocupar o espaço restante */
+}
+
+.aboutItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+  box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos na largura */
+}
+
+.aboutItem:hover {
+  background-size: 100% 100%;
+}
+
+.aboutItem h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.aboutItem p {
+  margin-top: 8px;
+  font-size: 20px;
+  word-wrap: break-word; /* Quebra de palavras longas */
+  box-sizing: border-box; /* Inclui padding e bordas na largura total */
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    margin-top: 0;
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  .content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .aboutImg {
+    display: none;
+  }
+
+  .aboutItems {
+    margin-top: 29px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .aboutItem {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%; /* Ajuste para garantir que o item não ultrapasse a largura do container */
+  }
+
+  .aboutItem h3 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .aboutItem p {
+    margin-top: 8px;
+    font-size: 12px;
+  }
+}

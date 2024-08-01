@@ -1,0 +1,50 @@
+[
+  {
+    "title": "E-Play",
+    "imageSrc": "projects/eplay.png",
+    "description": "Protótipo para um e-commerce de games, atua com responsividade e possui validação de dados.",
+    "skills": ["React", "Redux", "StyledComponents", "API", "TypeScript"],
+    "demo": "https://pn-e-play.vercel.app/",
+    "source": "https://github.com/xPedroNoronhax/ePlay"
+  },
+  {
+    "title": "E-Food",
+    "imageSrc": "projects/efood.png",
+    "description": "Protótipo para um aplicativo de delivery, atua com responsividade e possui validação de dados.",
+    "skills": ["React", "Redux", "StyledComponents", "API", "TypeScript"],
+    "demo": "https://efood-pn.vercel.app/",
+    "source": "https://github.com/xPedroNoronhax/Efood"
+  },
+  {
+    "title": "Lista de tarefas",
+    "imageSrc": "projects/todolist.png",
+    "description": "Aplicativo interativo para gerencias tarefas do dia a dia.",
+    "skills": ["React", "Tailwind", "JavaScript"],
+    "demo": "https://todoolist-pn-react.vercel.app/",
+    "source": "https://github.com/xPedroNoronhax/ToDo-React"
+  },
+  {
+    "title": "Restaurante- Landing Page",
+    "imageSrc": "projects/restaurant.png",
+    "description": "Landing page de um resturante, contando com descrição de atividades, menu e fale conosco.",
+    "skills": ["JavaScript", "HTML", "CSS", "BootStrap"],
+    "demo": "https://restaurantwebpage.vercel.app/",
+    "source": "https://github.com/xPedroNoronhax/restaurantepage"
+  },
+  {
+    "title": "Calculadora de Investimento",
+    "imageSrc": "projects/investment.png",
+    "description": "Retorna o investimento, baseado no valor inicial, novos aportes,taxa de retorno e a duração do investimento.",
+    "skills": ["React", "CSS Modules","JSON"],
+    "demo": "https://investment-calculator-react-pn-beryl.vercel.app/",
+    "source": "https://github.com/xPedroNoronhax/InvestmentCalculator-React"
+  },
+  {
+    "title": "Clone - DisneyPlus",
+    "imageSrc": "projects/disneyplus.png",
+    "description": "Landingpage inspirada no streaming Disney Plus.",
+    "skills": ["HTML", "CSS", "JavaScript", "SASS"],
+    "demo": "https://clone-disneyplus-eight-tan.vercel.app/#",
+    "source": "https://github.com/xPedroNoronhax/clone_disneyplus"
+  }
+]
