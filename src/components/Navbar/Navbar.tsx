@@ -2,12 +2,18 @@ import { useState } from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./Navbar.module.css";
 
-export const Navbar = ({ setMenuOpen }) => {
+// Define uma interface para as props
+interface NavbarProps {
+  setMenuOpen: (menuOpen: boolean) => void;
+}
+
+export const Navbar: React.FC<NavbarProps> = ({ setMenuOpen }) => {
   const [menuOpenLocal, setMenuOpenLocal] = useState(false);
 
   const handleMenuClick = () => {
-    setMenuOpenLocal(!menuOpenLocal);
-    setMenuOpen(!menuOpenLocal);
+    const newMenuOpenState = !menuOpenLocal;
+    setMenuOpenLocal(newMenuOpenState);
+    setMenuOpen(newMenuOpenState);
   };
 
   return (
@@ -27,8 +33,9 @@ export const Navbar = ({ setMenuOpen }) => {
           onClick={handleMenuClick}
         />
         <ul
-          className={`${styles.menuItems} ${menuOpenLocal && styles.menuOpen}`}
-          onClick={() => handleMenuClick(false)}
+          className={`${styles.menuItems} ${
+            menuOpenLocal ? styles.menuOpen : ""
+          }`}
         >
           <li>
             <a href="#about">Sobre</a>

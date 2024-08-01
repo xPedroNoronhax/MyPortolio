@@ -1,7 +1,12 @@
 import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
 
-const Hero = ({ menuOpen }) => {
+// Define uma interface para as props
+interface HeroProps {
+  menuOpen: boolean;
+}
+
+const Hero: React.FC<HeroProps> = ({ menuOpen }) => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
@@ -18,6 +23,7 @@ const Hero = ({ menuOpen }) => {
             className={styles.contactBtn}
             href="public/CV-Pedro Noronha _.pdf"
             target="_blank"
+            rel="noopener noreferrer"
           >
             CV
           </a>

@@ -1,4 +1,4 @@
-import { getImageUrl } from "../../utils";
+import { getImageUrl } from "../../utils.ts";
 import styles from "./About.module.css";
 const About = () => {
   return (

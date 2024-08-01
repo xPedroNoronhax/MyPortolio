@@ -1,6 +1,5 @@
-
 import styles from "./Contact.module.css";
-import { getImageUrl } from "../../utils";
+import { getImageUrl } from "../../utils.ts";
 
 export const Contact = () => {
   return (

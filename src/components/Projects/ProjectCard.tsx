@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
-import { getImageUrl } from "../../utils";
+import { getImageUrl } from "../../utils.ts";
 
 interface Project {
   title: string;
