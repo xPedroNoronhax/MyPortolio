@@ -21,7 +21,7 @@ const Hero: React.FC<HeroProps> = ({ menuOpen }) => {
           </a>
           <a
             className={styles.contactBtn}
-            href="/assets/cv/CV-Pedro-Noronha.pdf"
+            href="/public/cv.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
