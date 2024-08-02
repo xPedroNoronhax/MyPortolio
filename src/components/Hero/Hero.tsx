@@ -21,7 +21,8 @@ const Hero: React.FC<HeroProps> = ({ menuOpen }) => {
           </a>
           <a
             className={styles.contactBtn}
-            href="/public/cv.pdf"
+            href="/cv.pdf" // Caminho correto para o arquivo PDF
+            download
             target="_blank"
             rel="noopener noreferrer"
           >
