@@ -23,6 +23,7 @@
 .title {
   font-size: 25px;
   font-weight: 700;
+  
 }
 
 .description {
@@ -77,5 +78,9 @@
 @media (max-width: 768px) {
   .container {
     width: 299px;
+  }
+
+  .skills {
+    display: none;
   }
 }

@@ -5,7 +5,6 @@
     "description": "Uma rede social para postar pensamentos, fotos e interagir com outros usuários.",
     "skills": [
       "React",
-      "Recoil",
       "Chakra-UI",
       "Node.js",
       "TypeScript",
