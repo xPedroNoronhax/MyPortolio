@@ -1,5 +1,21 @@
 [
   {
+    "title": "Social Media - FullStack",
+    "imageSrc": "projects/socialmedia.png",
+    "description": "Uma rede social para postar pensamentos, fotos e interagir com outros usuários.",
+    "skills": [
+      "React",
+      "Recoil",
+      "Chakra-UI",
+      "Node.js",
+      "TypeScript",
+      "Express",
+      "MongoDB"
+    ],
+    "demo": "https://socialmedia-mern-pn.onrender.com/",
+    "source": "https://github.com/xPedroNoronhax/SocialMedia-MERN"
+  },
+  {
     "title": "E-Play",
     "imageSrc": "projects/eplay.png",
     "description": "Protótipo para um e-commerce de games, atua com responsividade e possui validação de dados.",
@@ -35,7 +51,7 @@
     "title": "Calculadora de Investimento",
     "imageSrc": "projects/investment.png",
     "description": "Retorna o investimento, baseado no valor inicial, novos aportes,taxa de retorno e a duração do investimento.",
-    "skills": ["React", "CSS Modules","JSON"],
+    "skills": ["React", "CSS Modules", "JSON"],
     "demo": "https://investment-calculator-react-pn-beryl.vercel.app/",
     "source": "https://github.com/xPedroNoronhax/InvestmentCalculator-React"
   },
