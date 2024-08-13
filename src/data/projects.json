@@ -23,6 +23,14 @@
     "source": "https://github.com/xPedroNoronhax/ePlay"
   },
   {
+    "title": "App - Previsão do Tempo",
+    "imageSrc": "projects/previsaodotempo.jpeg",
+    "description": "Um app de Previsão do Tempo, onde é possível saber sobre sua localização atual ou qualquer lugar do mundo.",
+    "skills": ["Next.js", "TypeScript", "API", "Tailwind"],
+    "demo": "https://weather-app-pn.vercel.app/",
+    "source": "https://github.com/xPedroNoronhax/WeatherApp"
+  },
+  {
     "title": "E-Food",
     "imageSrc": "projects/efood.png",
     "description": "Protótipo para um aplicativo de delivery, atua com responsividade e possui validação de dados.",
